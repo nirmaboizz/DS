@@ -1,0 +1,11 @@
+terminal 1
+javac *.java
+rmic Servant
+start rmiregistry
+java Server
+
+terminal 2
+
+java Client
+
+server port no.: 127.0.0.1
